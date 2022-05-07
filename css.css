@@ -1,0 +1,333 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size:  18px;
+    font-family: 'Barlow' ,sans-serif ;
+    
+}
+
+
+:root{
+    
+    --textcolor:hsl(210, 4%, 67%);
+    --darkishcyan:hsl(212, 27%, 19%);
+    --renk1:hsl(167, 40%, 24%);
+    --renk2: hsl(198, 64%, 25%);
+    --alt:hsl(168, 42%, 64%);
+    --darktextcolor:hsl(204, 5%, 22%);
+    
+}
+
+
+header{
+    height: 100vh;
+    background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-size: cover;
+}
+
+.heading{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading ul{
+    display: flex;
+
+}
+
+.heading ul li{
+    margin-right: 75px;
+}
+
+.heading ul li a{
+    color: white;
+}
+
+
+
+.portakal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+}
+
+.textbox{  
+   color: white;
+   font-size: 3em;
+   margin-bottom: 80px;
+   font-family: 'Fraunces', serif;
+   font-weight: 900;
+   letter-spacing: 0.2em;
+   font-family: 'Fraunces', serif;
+}
+
+
+
+
+
+
+
+.egg{
+   
+    display: flex;
+  
+    
+}
+
+.one{
+   
+    width: auto;
+    height: auto;
+}
+
+.two{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+.box{
+    
+    padding: 25% 15%;
+    
+    display: flex;
+   
+    flex-direction: column;
+    
+} 
+ 
+.yazı{
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 50px ;
+    color:  var(--darkishcyan);
+}
+
+.yazı2{
+    font-size: 1em;
+    margin-bottom: 50px;
+    color:var(--textcolor) ;
+}
+
+
+.yazı3{
+    font-size: 1.em;
+    color: var(--darkishcyan);
+}
+
+.yazı3::after{
+   content: '';
+   width: 95px;
+   height: 5px;
+   background-color: hsl(51, 100%, 49%);
+   display: block;
+   margin-top: -3px;
+   border-radius: 20px;
+  
+}
+
+
+
+
+
+
+.one2{
+    height: 600px;
+    width: 50%;
+    background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+
+    text-align: center;
+}
+
+
+
+.two2{
+   width: 50%;
+   text-align: center;
+   height: auto;
+   background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+}
+
+
+
+
+
+.aile{
+    top: 70%;
+    position: relative;
+}
+
+.ana{
+    font-size: 2em;
+    font-weight: 900;
+    color: var(--renk1);
+}
+
+.baba{
+    margin-top: 10px;
+    color: var(--renk1);
+}
+
+
+
+
+
+
+
+.aile1{
+    top: 70%;
+    position: relative;
+}
+
+.ana1{
+    font-size: 2em;
+    font-weight: 900;
+    color: var(--renk2);
+}
+
+.baba1{
+    margin-top: 10px;
+    color: var(--renk2);
+}
+
+/* Müşteri kısmıııııı */
+
+
+
+
+.müsteri{
+    height: 470px;
+    text-align: center;
+    
+
+}
+
+.birinci{
+    background-color: white;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.birinci img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.birinci .icyazı{
+    padding-top: 70px;
+    color: var(--darktextcolor);
+}
+
+.birinci .isim{
+    font-size: 1.2em;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: var(--renk2);
+}
+
+.birinci .is{
+    font-size: 0.9em;
+    color: var(--textcolor);
+}
+
+
+.üstalt{
+    padding: 100px 100px;
+    display: flex;
+}
+
+.birinciüstü{
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
+    font-family: 'Fraunces', serif;
+    color: var(--darktextcolor);
+    margin-top: 100px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+.resimler{
+    display: flex;
+    margin-top: 300px;
+    
+}
+
+.resimler img{
+    width: 25%;
+}
+
+
+
+.alt{
+    background-color: var(--alt);
+    height: 300px;
+    text-align: center;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+.ilk{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+
+}
+
+.ilk li a{
+    color: var(--renk2);
+    font-size: 1.1em;
+    
+}
+
+
+.ikonlar {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+
+@media (max-width:799px) {
+    .egg{
+        display: flex;
+        flex-direction: column
+        
+    }
+}
